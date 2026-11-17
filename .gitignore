@@ -1,0 +1,7 @@
+node_modules/
+dist/
+shots/
+.playwright-cli/
+.impeccable/
+.tek.js
+*.log

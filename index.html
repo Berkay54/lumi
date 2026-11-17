@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="tr" data-type="product">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LUMI · Hafif gazlı meyve suyu</title>
+  <meta name="description" content="LUMI: soğuk sıkım meyve ve maden suyu, ilave şeker yok. Kivi & Nane, Mango & Çarkıfelek. 330 ml kutu." />
+  <meta name="page-type" content="product" />
+  <meta name="site-kind" content="other" />
+  <meta name="theme-color" content="#0d1311" />
+</head>
+<body>
+  <!-- Konsept çalışma (DAB Labs). Marka, fiyat ve besin değerleri uydurmadır. Hero: Flow (Veo) çıktısı iki video, 379 kare WebP. -->
+  <a class="skip" href="#tatlar">Videoyu geç</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a class="logo" href="#ust" aria-label="LUMI ana sayfa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20c0-6 3-10 8-11-1 6-4 10-8 11Zm0 0C12 14 9 10 4 9c1 6 4 10 8 11Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        LUMI
+      </a>
+      <nav class="links" aria-label="Ana menü">
+        <a href="#tatlar">Tatlar</a>
+        <a href="#icindekiler">İçindekiler</a>
+        <a href="#siparis">Sipariş</a>
+      </nav>
+      <a class="btn btn-sm" href="#siparis">Kasa sipariş et</a>
+    </div>
+  </header>
+
+  <main id="ust">
+    <section class="hero" aria-label="LUMI tanıtım videosu">
+      <div class="hero-pin">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="wrap hero-beats">
+          <div class="beat beat-intro" data-in="0" data-out="0.1">
+            <div>
+              <p class="eyebrow">Hafif gazlı meyve suyu · 330 ml</p>
+              <h1>Ekrana sığmayan<br />meyve suyu.</h1>
+            </div>
+            <div class="intro-side">
+            <p class="lead">Soğuk sıkım meyve, biraz maden suyu. İlave şeker yok, aroma yok.</p>
+            <div class="actions">
+              <a class="btn" href="#siparis">Kasa sipariş et</a>
+              <a class="btn btn-ghost" href="#tatlar" data-skip>Tatları gör</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="beat beat-left" data-in="0.15" data-out="0.31">
+            <p class="big">Önce kivi<br />dayanamadı.</p>
+          </div>
+
+          <div class="beat beat-right" data-in="0.37" data-out="0.52">
+            <p class="tag tag-mint">01</p>
+            <p class="big">Kivi &amp; Nane</p>
+            <p class="lead">Kivi, yeşil elma, taze nane. Serin ve ekşimsi.</p>
+          </div>
+
+          <div class="beat beat-left" data-in="0.56" data-out="0.71">
+            <p class="big">Sonra mango<br />dalgası geldi.</p>
+          </div>
+
+          <div class="beat beat-right" data-in="0.8" data-out="1">
+            <p class="tag tag-mango">02</p>
+            <p class="big">Mango &amp; Çarkıfelek</p>
+            <p class="lead">Olgun mango, çarkıfelek, bir tutam limon. Tatlı ama yormuyor.</p>
+            <div class="actions"><a class="btn" href="#tatlar">İki tadı karşılaştır</a></div>
+          </div>
+        </div>
+
+        <div class="hero-meter" aria-hidden="true">
+          <span class="meter-label">Kaydır</span>
+          <span class="meter-track"><span class="meter-fill" id="hero-bar"></span><i style="left:48%"></i><i style="left:100%"></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="flavors" id="tatlar">
+      <div class="wrap">
+        <div class="head">
+          <h2>İki tat, iki renk kutu</h2>
+          <p class="lead">İkisi de 330 ml, ikisi de buzdolabından çıkar çıkmaz içilmek için.</p>
+        </div>
+        <div class="flavor-grid">
+          <article class="flavor flavor-mint">
+            <div class="flavor-img"><img src="/img/kutu-nane.webp" alt="Nane yeşili LUMI Kivi & Nane kutusu, ıslak masada" width="760" height="1013" loading="lazy" /></div>
+            <div class="flavor-body">
+              <p class="tag tag-mint">01</p>
+              <h3>Kivi &amp; Nane</h3>
+              <p>Kivinin ekşisi, yeşil elmanın gevrekliği, sonunda nane serinliği.</p>
+              <ul class="chips"><li>Kivi %45</li><li>Yeşil elma %40</li><li>Nane</li></ul>
+              <div class="buy">
+                <p class="price">₺55 <span>/ kutu</span></p>
+                <button class="btn" type="button" data-pick="nane">Sepete ekle</button>
+              </div>
+            </div>
+          </article>
+          <article class="flavor flavor-mango">
+            <div class="flavor-img"><img src="/img/kutu-mango.webp" alt="Mango sarısı LUMI Mango & Çarkıfelek kutusu, mango suyu içinde" width="760" height="1013" loading="lazy" /></div>
+            <div class="flavor-body">
+              <p class="tag tag-mango">02</p>
+              <h3>Mango &amp; Çarkıfelek</h3>
+              <p>Olgun mangonun yumuşaklığı, çarkıfeleğin kokusu, limonla dengelenmiş.</p>
+              <ul class="chips"><li>Mango %50</li><li>Çarkıfelek %22</li><li>Limon</li></ul>
+              <div class="buy">
+                <p class="price">₺55 <span>/ kutu</span></p>
+                <button class="btn" type="button" data-pick="mango">Sepete ekle</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="inside" id="icindekiler">
+      <div class="wrap split">
+        <div class="inside-img"><img src="/img/patlama.webp" alt="Kivi dilimleri ve yeşil meyve suyuyla ekrandan fırlayan LUMI kutusu" width="1440" height="1080" loading="lazy" /></div>
+        <div class="inside-body">
+          <h2>Kutuda ne varsa etikette o yazıyor</h2>
+          <p class="lead">Meyve, maden suyu, limon. Renk de koku da meyvenin kendisinden.</p>
+          <table class="facts">
+            <caption class="sr">330 ml kutu başına besin değerleri</caption>
+            <thead><tr><th scope="col">330 ml kutuda</th><th scope="col">Kivi &amp; Nane</th><th scope="col">Mango &amp; Ç.</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Meyve oranı</th><td>%85</td><td>%82</td></tr>
+              <tr><th scope="row">Enerji</th><td>118 kcal</td><td>126 kcal</td></tr>
+              <tr><th scope="row">Şeker (meyveden)</th><td>24 g</td><td>27 g</td></tr>
+              <tr><th scope="row">İlave şeker</th><td>0 g</td><td>0 g</td></tr>
+              <tr><th scope="row">Koruyucu, aroma</th><td>Yok</td><td>Yok</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="siparis">
+      <div class="wrap split split-rev">
+        <div class="order-body">
+          <h2>Kasayla gelsin, dolapta soğusun</h2>
+          <form class="order-form" id="order-form">
+            <fieldset>
+              <legend>Kasa</legend>
+              <div class="sizes">
+                <label class="opt"><input type="radio" name="size" value="6" data-price="310" /><span><b>6'lı</b><em>₺310</em><small>kutusu ₺52</small></span></label>
+                <label class="opt"><input type="radio" name="size" value="12" data-price="590" checked /><span><b>12'li</b><em>₺590</em><small>kutusu ₺49</small></span></label>
+                <label class="opt"><input type="radio" name="size" value="24" data-price="1090" /><span><b>24'lü</b><em>₺1.090</em><small>kutusu ₺45</small></span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Tat</legend>
+              <div class="seg">
+                <label><input type="radio" name="tat" value="karisik" checked /><span>Karışık</span></label>
+                <label><input type="radio" name="tat" value="nane" /><span>Kivi &amp; Nane</span></label>
+                <label><input type="radio" name="tat" value="mango" /><span>Mango &amp; Ç.</span></label>
+              </div>
+            </fieldset>
+            <div class="total">
+              <p><span id="sum-label">12'li karışık kasa</span><strong id="sum-price">₺590</strong></p>
+              <button class="btn btn-wide" type="submit">Sepete ekle</button>
+            </div>
+            <p class="note" id="order-note" role="status">İstanbul içi ertesi gün teslim. ₺750 üzeri kargo ücretsiz.</p>
+          </form>
+        </div>
+        <div class="order-img"><img src="/img/mango-dalga.webp" alt="Mango suyu dalgası içinde sarı LUMI kutusu" width="1440" height="1080" loading="lazy" /></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <a class="logo" href="#ust">LUMI</a>
+      <nav class="links" aria-label="Alt menü">
+        <a href="#tatlar">Tatlar</a>
+        <a href="#icindekiler">İçindekiler</a>
+        <a href="#siparis">Sipariş</a>
+        <a href="mailto:merhaba@lumi.example">Bize yazın</a>
+      </nav>
+      <p class="small">Konsept çalışma · Tasarım: DAB Labs</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
